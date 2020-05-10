@@ -22,6 +22,10 @@
   },
   "homepage": "https://github.com/jhonnyLeandro/gap_automation#readme",
   "devDependencies": {
+    "@babel/cli": "^7.8.4",
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "@babel/register": "^7.9.0",
     "@wdio/allure-reporter": "^6.1.9",
     "@wdio/cli": "^6.1.9",
     "@wdio/cucumber-framework": "^6.1.8",
