@@ -8,7 +8,7 @@ Cucumber like the BDD tool, Selenium standalone to manage browsers and Chai like
 
 ## Set Up
 
-To get the project running just clone the repository
+To get the project running, just clone the repository.
 
 
 **SSH**
@@ -19,3 +19,13 @@ To get the project running just clone the repository
 **HTTPS**
 
 `git clone https://github.com/jhonnyLeandro/gap_automation.git`
+
+
+Install dependencies
+
+`npm install`
+
+
+Run the tests
+
+`npm run install`
