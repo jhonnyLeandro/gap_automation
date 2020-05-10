@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/jhonnyLeandro/gap_automation/issues"
   },
-  "homepage": "https://github.com/jhonnyLeandro/gap_automation#readme"
+  "homepage": "https://github.com/jhonnyLeandro/gap_automation#readme",
+  "devDependencies": {
+    "@wdio/cli": "^6.1.9"
+  }
 }
