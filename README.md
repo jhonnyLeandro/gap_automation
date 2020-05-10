@@ -33,3 +33,15 @@ Install dependencies
 Run the tests
 
 `npm run install`
+
+## Building the project
+
+The first thing that we have to be sure about is that we have node.js installed in our machine, so if you don't have it installed. That will be your move, install node.js. we are building this project with node.js v12.16.2. after that check for if you have java installed in your system if don't please install java version 8 or above.
+
+Now with those requisites acomplished we can start to build our UI automation project
+
+
+- First create a folder to contain our project in our case I'm gonna call it gap_project but you can name it whatever you want.
+
+**Create folder and navigate to it**
+`mkdir gap_project && cd gap_project`
