@@ -73,3 +73,20 @@ we will choose, to run locally, in machine devices, spec and allure like reporte
 **Set up babel**
 
 `npm install --save-dev @babel/core @babel/cli @babel/preset-env @babel/register`
+
+Next we have to add this property "requireModule: ['@babel/register']" into cucumberOpts in 
+wdio.conf.js file, furthermore we have to add the require('@babel/register') in the beforeSession hook.
+
+The last step is to create the file babel.config.js and add the following:
+
+`
+module.exports = {
+    presets: [
+        ['@babel/preset-env', {
+            targets: {
+                node: 12
+            }
+        }]
+    ]
+}
+`
