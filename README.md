@@ -2,7 +2,7 @@
 UI Test Automation Project with WebdriverIO and Cucumber
 
 ##  Brief description
-This project was developed using tools like webdriverIO, which is an UI automation framework for nodejs,
+This project was developed using tools like [webdriverIO](https://webdriver.io/), which is an UI automation framework for nodejs,
 Cucumber like the BDD tool, Selenium standalone to manage browsers and Chai like assertion libary.
 
 
