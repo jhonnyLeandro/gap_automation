@@ -21,6 +21,10 @@ To get the project running, just clone the repository.
 `git clone https://github.com/jhonnyLeandro/gap_automation.git`
 
 
+Change directory to gap project
+
+`cd gap_automation`
+
 Install dependencies
 
 `npm install`
