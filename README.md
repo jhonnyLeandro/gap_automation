@@ -48,3 +48,21 @@ Now with those requisites completed we can start to build our UI automation proj
 **Create folder and navigate to it**
 
 `mkdir gap_project && cd gap_project`
+
+
+**Initialize git**
+
+`git init`
+
+**create an npm project**
+
+`npm init -y`
+
+**Install WebdriverIO CLI**
+
+`npm i --save-dev @wdio/cli`
+
+
+**Use wdio cli to install the desired dependencies**
+
+`npx wdio config`
