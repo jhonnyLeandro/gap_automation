@@ -1,8 +1,8 @@
 # gap_automation
-UI Test Automation Project with WebdriverIO and Cucumber
+UI Test Automation Project with WebdriverIO, Cucumber and Selenium Standalone
 
 ##  Brief description
-This project was developed using tools like webdriverIO, which is an UI automation framework for nodejs,
+This project was developed using tools like [webdriverIO](https://webdriver.io/), which is an UI automation framework for nodejs,
 Cucumber like the BDD tool, Selenium standalone to manage browsers and Chai like assertion libary.
 
 
@@ -33,3 +33,36 @@ Install dependencies
 Run the tests
 
 `npm run install`
+
+## Building the project
+
+The first thing that we have to be sure about, Is that we have node.js installed in our machines, so if you don't have it installed, that will be your first move, install node.js, we are building this project with node.js v12.16.2.  
+
+The following step will be to check if you have java installed in your system, if don't please install java version 8 or above.
+
+Now with those requisites completed we can start to build our UI automation project
+
+
+- First create a folder to contain our project in our case I'm gonna call it gap_project but you can name it whatever you want.
+
+**Create folder and navigate to it**
+
+`mkdir gap_project && cd gap_project`
+
+
+**Initialize git**
+
+`git init`
+
+**create an npm project**
+
+`npm init -y`
+
+**Install WebdriverIO CLI**
+
+`npm i --save-dev @wdio/cli`
+
+
+**Use wdio cli to install the desired dependencies**
+
+`npx wdio config`

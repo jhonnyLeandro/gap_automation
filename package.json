@@ -20,5 +20,14 @@
   "bugs": {
     "url": "https://github.com/jhonnyLeandro/gap_automation/issues"
   },
-  "homepage": "https://github.com/jhonnyLeandro/gap_automation#readme"
+  "homepage": "https://github.com/jhonnyLeandro/gap_automation#readme",
+  "devDependencies": {
+    "@wdio/allure-reporter": "^6.1.9",
+    "@wdio/cli": "^6.1.9",
+    "@wdio/cucumber-framework": "^6.1.8",
+    "@wdio/local-runner": "^6.1.9",
+    "@wdio/selenium-standalone-service": "^6.0.16",
+    "@wdio/spec-reporter": "^6.1.9",
+    "@wdio/sync": "^6.1.8"
+  }
 }
