@@ -1,5 +1,5 @@
 # gap_automation
-UI Test Automation Project with WebdriverIO and Cucumber
+UI Test Automation Project with WebdriverIO, Cucumber and Selenium Standalone
 
 ##  Brief description
 This project was developed using tools like [webdriverIO](https://webdriver.io/), which is an UI automation framework for nodejs,
