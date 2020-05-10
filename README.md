@@ -66,3 +66,10 @@ Now with those requisites completed we can start to build our UI automation proj
 **Use wdio cli to install the desired dependencies**
 
 `npx wdio config`
+
+we will choose, to run locally, in machine devices, spec and allure like reporters, cucumber framewok and selenium standalone service.
+
+
+**Set up babel**
+
+`npm install --save-dev @babel/core @babel/cli @babel/preset-env @babel/register`
