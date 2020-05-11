@@ -43,7 +43,7 @@ The following step will be to check if you have java installed in your system, i
 Now with those requisites completed we can start to build our UI automation project
 
 
-- First create a folder to contain our project in our case I'm gonna call it gap_project but you can name it whatever you want.
+First create a folder to contain our project in our case I'm gonna call it gap_project but you can name it whatever you want.
 
 **Create folder and navigate to it**
 
@@ -67,7 +67,7 @@ Now with those requisites completed we can start to build our UI automation proj
 
 `npx wdio config`
 
-we will choose, to run locally, in machine devices, spec and allure like reporters, cucumber framewok and selenium standalone service.
+we will choose, to run locally, in machine devices, spec and allure like reporters, cucumber framewok and selenium standalone service. And this will give us the file wdio.conf.js which is the file that has all our test configurations.
 
 
 **Set up babel**
@@ -100,3 +100,31 @@ module.exports = {
 
 
 `npm install cucumber --save-dev`
+
+**Install chai**
+
+`npm install chai --save-dev`
+
+**folder structure**
+
+We are going to work with the following structure
+
+```bash
+├── babel.config.js
+├── package.json
+├── package-lock.json
+├── README.md
+├── test
+│   ├── features
+│   │   ├── createUser.feature
+│   │   └── stepDefinitions
+│   │       ├── given.js
+│   │       ├── then.js
+│   │       └── when.js
+│   └── page_objects
+│       ├── CreateUser.js
+│       ├── Home.js
+│       ├── ListUser.js
+│       └── Login.js
+└── wdio.conf.js
+```
