@@ -4,7 +4,8 @@
   "description": "UI Test Automation Project with WebdriverIO and Cucumber",
   "main": "index.js",
   "scripts": {
-    "test": "TEST_USER=gap-automation-test@mailinator.com  TEST_PASSWORD=12345678  TEST_LEADER='Jhonny Leandro' npx wdio wdio.conf.js"
+    "test": "TEST_USER=gap-automation-test@mailinator.com  TEST_PASSWORD=12345678  TEST_LEADER='Jhonny Leandro' npx wdio wdio.conf.js",
+    "test_win": "set TEST_USER=gap-automation-test@mailinator.com&&set TEST_PASSWORD=12345678&&set TEST_LEADER='Jhonny Leandro'&&npx wdio wdio.conf.js"
   },
   "repository": {
     "type": "git",
