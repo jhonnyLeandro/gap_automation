@@ -8,7 +8,7 @@ Cucumber like the BDD tool, Selenium standalone to manage browsers and Chai like
 
 ## Set Up
 
-First you must have installed node.js and java after that just clone the repository.
+First you must have installed node.js and java, After that just clone the repository.
 
 **SSH**
 
