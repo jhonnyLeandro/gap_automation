@@ -4,7 +4,7 @@
   "description": "UI Test Automation Project with WebdriverIO and Cucumber",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "TEST_USER=gap-automation-test@mailinator.com  TEST_PASSWORD=12345678  TEST_LEADER='Jhonny Leandro' npx wdio wdio.conf.js"
   },
   "repository": {
     "type": "git",
@@ -32,6 +32,9 @@
     "@wdio/local-runner": "^6.1.9",
     "@wdio/selenium-standalone-service": "^6.0.16",
     "@wdio/spec-reporter": "^6.1.9",
-    "@wdio/sync": "^6.1.8"
+    "@wdio/sync": "^6.1.8",
+    "chai": "^4.2.0",
+    "cucumber": "^6.0.5",
+    "selenium-standalone": "^6.17.0"
   }
 }
