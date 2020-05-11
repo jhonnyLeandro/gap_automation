@@ -32,7 +32,7 @@ Install dependencies
 
 Run the tests
 
-`npm run install`
+`npm run test`
 
 ## Building the project
 
@@ -90,3 +90,13 @@ module.exports = {
     ]
 }
 `
+
+**Install selenium standalone**
+
+`npm install selenium-standalone --save-dev
+./node_modules/.bin/selenium-standalone install`
+
+**Install cucumber**
+
+
+`npm install cucumber --save-dev`
