@@ -8,6 +8,8 @@ Cucumber like the BDD tool, Selenium standalone to manage browsers and Chai like
 
 ## Set Up
 
+keep in mind that this project was developed in ubuntu, so maybe you have to make adjusments to run it in other os or maybe not. but you have to install node.js and java for sure.
+
 To get the project running, just clone the repository.
 
 
