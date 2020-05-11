@@ -1,5 +1,7 @@
 # ignore node_modules folder
 node_modules/
-
-
+# vscode configurations
 .vscode/
+
+# allure results
+allure-results/
