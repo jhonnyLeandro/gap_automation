@@ -63,7 +63,7 @@ First create a folder to contain our project in our case I'm gonna call it gap_p
 
 **Install WebdriverIO CLI**
 
-`npm i --save-dev @wdio/cli`
+`npm i --save-dev @wdio/cli@7`
 
 
 **Use wdio cli to install the desired dependencies**
